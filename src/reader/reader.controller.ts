@@ -11,7 +11,7 @@ export class ReaderController {
     return this.readerService.getUserBackendBranches();
   }
   @Get('backendCommitsFromBranch/:branch')
-  getBackendCommitsFromBranch(@Param('branch') branch) {
+  getBackendCommitsFromBranch(@Param('branch') branch: string) {
     return this.readerService.getBackendCommitsFromBranch(branch);
   }
 }

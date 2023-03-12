@@ -17,6 +17,7 @@ export class ReaderService {
     });
   }
   async getBackendCommitsFromBranch(branch) {
+    console.log(branch);
     return await this.octokit.request(
       'GET /repos/{owner}/{repo}/commits?sha=' + branch,
       {
