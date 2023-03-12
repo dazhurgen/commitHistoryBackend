@@ -27,7 +27,6 @@ $ npm install
   PORT = 3000
   GITHUB_TOKEN = your_own_ghp_git_token
   OWNER = dazhurgen
-  FRONT_END_REPO = 
   BACKEND_REPO = = commitHistoryBackend
 ```
  remember to replace `your_own_ghp_git_token` in the newly create .env file with an actual valid github personal access token
