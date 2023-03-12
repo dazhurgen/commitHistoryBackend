@@ -20,6 +20,7 @@ $ npm install
 
 ## Configuring
   Before running the server you must create a .env file in the root folder. and add the following values
+ 
 
 ```bash
   GITHUB_API_BASE_URL = https://api.github.com
@@ -28,6 +29,9 @@ $ npm install
   OWNER = dazhurgen
   FRONT_END_REPO = 
   BACKEND_REPO = = commitHistoryBackend
+```
+ remember to replace `your_own_ghp_git_token` in the newly create .env file with an actual valid github personal access token
+ 
 ## Running the app
 
 ```bash
@@ -36,21 +40,10 @@ $ npm run start
 
 # watch mode
 $ npm run start:dev
-
+```
 ## Once running
   Go to http://localhost:3000
   It should show an ui with the branches of the repo and the commit history of each branch
 
-## Test
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
 
