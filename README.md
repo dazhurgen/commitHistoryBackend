@@ -37,9 +37,9 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
-```
+## Once running
+  Go to http://localhost:3000
+  It should show an ui with the branches of the repo and the commit history of each branch
 
 ## Test
 
